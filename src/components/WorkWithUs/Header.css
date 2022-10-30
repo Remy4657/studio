@@ -1,0 +1,158 @@
+/* :root{
+    --orange: #FF8E0A;
+} */
+.header-work {
+  background-image: url("../../assets//images/pc/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 1rem 18% 2rem 18%;
+  height: 44rem;
+  color: #fff;
+}
+.header-work a {
+  color: #fff;
+}
+.header-work li {
+  margin: 0 2rem;
+}
+.header-work ul {
+  height: inherit;
+}
+.header-work li {
+  height: inherit;
+}
+.header-work .logo-work {
+  background-image: url("../../assets/Logo/logoROCKET.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  width: 11rem;
+}
+.header-work .text {
+  text-align: center;
+  margin-top: 17%;
+}
+.header-work .text p {
+  margin: 6rem 0 7rem 0;
+}
+
+.header-work .text button {
+  cursor: pointer;
+  padding: 1rem 6rem;
+  border: none;
+  background-color: var(--orange);
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.header-work h1 {
+  font-size: 4rem;
+  letter-spacing: 1.37rem;
+  font-weight: bold;
+}
+.header-work_text {
+  margin: 10% auto;
+}
+.header-work_text span {
+  background-color: #fff;
+  height: 2px;
+  display: block;
+  width: 28%;
+  margin: 0 auto;
+}
+.header-extra i {
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+.header-extra p {
+  font-size: 1.5rem;
+}
+.header-extra .fa-chevron-down {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .header-work {
+    padding: 1rem 10% 0 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .header-work {
+    padding: 1rem 3rem 0 3rem;
+  }
+  .header-work_text {
+    margin: 10% auto;
+  }
+}
+@media (max-width: 820px) {
+  .header-work {
+    padding: 1rem 3rem 0 3rem !important;
+  }
+  .header-work .header-task {
+    display: none;
+  }
+  .header-extra .icon-down,
+  .header-extra .icon-glass2 {
+    display: none;
+  }
+  .header-extra .icon-menu,
+  .header-extra .icon-glass,
+  .header-extra .vn {
+    display: block;
+  }
+  .header-extra .icon-glass,
+  .header-extra .icon-menu {
+    padding-top: 6px;
+  }
+  .header-extra .icon-menu {
+  }
+  .header-extra .icon-menu::before {
+    background-color: var(--orange);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .header-extra .icon {
+    margin: 10% 0.5rem;
+    font-size: 2rem;
+  }
+  .header-work .logo-work {
+    background-image: url("../../assets/Logo/logoROCKET_ngang.svg");
+    font-size: 22rem;
+    height: 6rem;
+    width: 18rem;
+  }
+  .header-work .header-nav {
+    background-color: #000;
+    opacity: 0.7;
+    margin: -8px -24px 0 -24px;
+    padding: 1rem 3rem;
+  }
+  .header-work_text {
+    margin: 17% auto;
+  }
+  .header-extra .icon {
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-work h1 {
+    width: 29rem;
+    letter-spacing: 0.5px;
+  }
+  .header-work {
+    height: 30rem;
+  }
+  .header-work_text {
+    margin: 0 auto;
+  }
+  .header-work_text {
+    margin: 13% auto;
+  }
+  .header-extra .en {
+    color: var(--orange);
+  }
+}

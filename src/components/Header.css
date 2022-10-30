@@ -1,0 +1,143 @@
+.header {
+  background-image: url("../assets/images/topBG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
+  width: 100%;
+  padding: 1rem 18% 2rem 18%;
+  height: 51.8rem;
+  color: #fff;
+  /* margin-top: -1rem; */
+}
+.header a {
+  color: #fff;
+}
+.header li {
+  margin: 0 2rem;
+}
+.header ul {
+  height: inherit;
+}
+.header li {
+  height: inherit;
+}
+.header .logo {
+  background-image: url("../assets/Logo/logoROCKET.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  width: 11rem;
+}
+.header .text {
+  text-align: center;
+  margin-top: 11%;
+}
+.header .text p {
+  margin: 3rem 0;
+  width: 90%;
+}
+.header .text h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.header .text button {
+  cursor: pointer;
+  padding: 1rem 6rem;
+  border: none;
+  background-color: var(--orange);
+  color: #fff;
+  border-radius: 0.5rem;
+  height: 5.4rem;
+  width: 22.2rem;
+  font-weight: bold;
+}
+.header-extra i {
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+.header-extra p {
+  font-size: 1.5rem;
+}
+.header-extra .fa-chevron-down {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.header-extra .icon-menu,
+.header-extra .vn,
+.header-extra .icon-glass {
+  display: none;
+}
+.header-extra .icon-menu :hover .header-task {
+  display: block !important;
+}
+
+.header-extra-mobile {
+  display: none !important;
+}
+.header-extra .icon {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1500px) {
+  .header {
+    padding: 1rem 10% 0 10%;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 1rem 10% 0 10%;
+  }
+}
+@media (max-width: 820px) {
+  .header {
+    padding: 1rem 3rem 0 3rem !important;
+  }
+  .header .header-task {
+    display: none;
+  }
+  .header-extra .icon-down,
+  .header-extra .icon-glass2 {
+    display: none;
+  }
+  .header-extra .icon-menu,
+  .header-extra .icon-glass,
+  .header-extra .vn {
+    display: block;
+  }
+  .header-extra .icon-glass,
+  .header-extra .icon-menu {
+    padding-top: 6px;
+  }
+  .header-extra .icon-menu {
+  }
+  .header-extra .icon-menu::before {
+    background-color: var(--orange);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .header-extra .icon {
+    margin: 10% 0.5rem;
+    font-size: 2rem;
+  }
+  .header .logo {
+    background-image: url("../assets/Logo/logoROCKET_ngang.svg");
+    font-size: 22rem;
+    height: 6rem;
+    width: 18rem;
+  }
+  .header .header-nav {
+    background-color: #000;
+    opacity: 0.7;
+    margin: -8px -24px 0 -24px;
+    padding: 1rem 3rem;
+  }
+  .header-extra .en {
+    color: var(--orange);
+  }
+}

@@ -1,0 +1,96 @@
+.section1 {
+  padding: 0 25rem 5rem 25rem;
+  background-color: var(--black);
+}
+.section1 h1 {
+  text-align: center;
+  padding: 4rem 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 4.5rem;
+}
+.section1 h3 {
+  color: var(--orange);
+}
+
+.section1 p {
+  color: #fff;
+}
+.section1 .image {
+  height: 10rem;
+  width: 10rem;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section1 p {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+.section1 h3 {
+  margin: 2rem 0 1rem 0;
+}
+.section1 .image1 {
+  background-image: url("../assets/Logo/icon1_pc.svg");
+}
+.section1 .image2 {
+  background-image: url("../assets/Logo/pc/icon2.svg");
+}
+.section1 .image3 {
+  background-image: url("../assets/Logo/pc/icon3.svg");
+}
+.section1 .image4 {
+  background-image: url("../assets/Logo/pc/icon4.svg");
+}
+.section1 .image5 {
+  background-image: url("../assets/Logo/pc/icon5.svg");
+}
+.section1 .image6.last {
+  background-image: url("../assets/Logo/pc/icon6.svg");
+  width: 15.5rem;
+}
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 6rem 5rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1500px) {
+  .header {
+    padding: 1rem 10% 0 10%;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+  }
+
+  .header {
+    padding: 1rem 3rem 0 3rem;
+  }
+  .section1 {
+    padding: 0rem 3rem 5rem 3rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .header .header-task {
+    display: none;
+  }
+  .header-extra {
+    display: none;
+  }
+  .header-extra-mobile {
+    display: block !important;
+  }
+  .section1 {
+    padding: 0 2rem 5rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section1 h1 {
+    padding: 4rem;
+  }
+}

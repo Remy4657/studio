@@ -1,0 +1,43 @@
+:root {
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  gap: 0;
+}
+.section2 .image {
+  height: 44rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section2 .image1 {
+  background-image: url("../assets/images/pc/s3-img1.png");
+}
+.section2 .image2 {
+  background-image: url("../assets/images/pc/s3-img2.png");
+}
+.section2 .image3 {
+  background-image: url("../assets/images/pc/s3-img3.png");
+}
+.section2 .text {
+  color: #fff;
+  display: flex;
+  background-color: var(--gray);
+}
+.section2 .text p {
+  margin: auto;
+}
+.section2 .text.left {
+  padding: 0 2rem 0 36%;
+}
+.section2 .text.right {
+  padding: 0 36% 0 3rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .section2 {
+    display: none;
+  }
+}
